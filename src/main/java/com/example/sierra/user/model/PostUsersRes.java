@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class PostUsersReq {
-    private int id;
+public class PostUsersRes {
+    private Integer id;
     private String restapi_key;
 }
